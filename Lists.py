@@ -83,5 +83,13 @@ print('sorted l', l)
 l.reverse()
 print('reversed l', l)
 
+print('second from the end element in l', l[-2])
+
+# item[START:STOP:STEP]
+print(l[1:])
+print(l[:3])
+print(l[::2])
+print(l[1:2:2])
+
 l.clear()
 print('cleared l', l)
