@@ -93,3 +93,14 @@ print(l[1:2:2])
 
 l.clear()
 print('cleared l', l)
+
+#=====================
+a = (1, 3, 10, 'r')
+b = [1, 3, 10, 'r']
+
+print(a.__sizeof__ ())
+print(b.__sizeof__ ())
+
+c = tuple('Hello world')
+print(c)
+print(c.count('o'))
