@@ -50,3 +50,38 @@ my_new_names_2 = names[:]
 names.append('some new name')
 print(my_new_names_1)
 print(my_new_names_2)
+
+
+#================
+l = []
+list = [a + b for a in 'Boom' if a != 'm' for b in 'Bar' if b != 'b']
+l.append(54)
+l.append(54)
+numbs = [33, 44]
+l.extend(numbs)
+
+print('l', l)
+print('list', list)
+
+l.insert(3, 99)
+print('l with inserted el', l)
+
+l.remove(33)
+print('l without 33', l)
+
+l.pop(0)
+print('l deleted by index', l)
+
+print('index of 99 in l', l.index(99))
+
+l.append(99)
+print('quontity of 99 in l', l.count(99))
+
+l.sort()
+print('sorted l', l)
+
+l.reverse()
+print('reversed l', l)
+
+l.clear()
+print('cleared l', l)
